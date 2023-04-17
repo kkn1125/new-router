@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "cd build/ && git init && git add -A && git commit -m \"gh-pages\" && git push https://github.com/kkn1125/new-router.git master:gh-pages -f"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",

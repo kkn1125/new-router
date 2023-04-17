@@ -20,11 +20,10 @@ export default class Home extends Component {
 				<path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
 			</svg>
 		</div>
-		<div style="text-align: center;">
-      <div style="padding-top: 5rem;"></div>
+		<div style="text-align: center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%)">
 			<div class="hover" style="font-size: 7rem;">Hello!</div>
-			<div class="hover" style="font-size: 7rem; color: #ffffff">I'm Devkimson!</div>
       <div style="padding-top: 5rem;"></div>
+			<div class="hover" style="font-size: 7rem; color: #ffffff">I'm Devkimson!</div>
 		</div>
 
     <div class="wavy" style="z-index: -1;"></div>
